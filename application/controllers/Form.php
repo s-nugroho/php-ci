@@ -16,15 +16,15 @@ class Form extends CI_Controller {
 
 	public function submit()
 	{
-		$name  = $this->input->post('name');
-		$email = $this->input->post('email');
-		$message = $this->input->post('message');
-
-		// Contoh sederhana: hanya menampilkan hasil input
 		$data = [
-			'name' => $name,
-			'email' => $email,
-			'message' => $message
+			'nama'        => $this->input->post('nama'),
+			'ttl'         => $this->input->post('ttl'),
+			'pekerjaan'   => $this->input->post('pekerjaan'),
+			'tb'          => $this->input->post('tb'),
+			'bb'          => $this->input->post('bb'),
+			'bmi'         => $this->input->post('bmi'),
+			'td'          => $this->input->post('td'),
+			'gol_darah'   => $this->input->post('gol_darah')
 		];
 
 		$this->load->view('form_success', $data);
