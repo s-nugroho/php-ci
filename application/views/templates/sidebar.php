@@ -17,6 +17,12 @@
 						<p>Form Input</p>
 					</a>
 				</li>
+				<li class="nav-item">
+					<a href="<?= site_url('list_pasien') ?>" class="nav-link">
+						<i class="nav-icon fas fa-edit"></i>
+						<p>Data Pasien</p>
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</div>

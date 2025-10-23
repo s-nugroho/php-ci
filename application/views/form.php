@@ -1,5 +1,3 @@
-<?php $this->load->view('templates/header', ['title' => 'Form Data Kesehatan']); ?>
-<?php $this->load->view('templates/sidebar'); ?>
 
 <div class="content-wrapper">
 	<section class="content-header">
@@ -12,8 +10,7 @@
 		<div class="container-fluid">
 			<div class="card card-primary">
 				<div class="card-header">
-					<h3 class="card-title">Yang bertandatangan dibawah ini Dokter RSUD Saras Adyatma menerangkan dengan
-						sebenar-benarnya bahwa</h3>
+					<h3 class="card-title">Silahkan Lengkapi data di Bawah</h3>
 				</div>
 
 				<form action="<?= site_url('form/submit') ?>" method="post">

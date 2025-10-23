@@ -1,6 +1,3 @@
-<?php $this->load->view('templates/header', ['title' => 'Dashboard']); ?>
-<?php $this->load->view('templates/sidebar'); ?>
-
 <div class="content-wrapper">
 	<section class="content-header">
 		<div class="container-fluid">
@@ -17,5 +14,3 @@
 		</div>
 	</section>
 </div>
-
-<?php $this->load->view('templates/footer'); ?>
