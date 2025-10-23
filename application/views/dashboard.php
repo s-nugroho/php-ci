@@ -3,11 +3,17 @@
 
 <div class="content-wrapper">
 	<section class="content-header">
-		<h1>Dashboard</h1>
+		<div class="container-fluid">
+			<h1>Dashboard</h1>
+		</div>
 	</section>
 	<section class="content">
 		<div class="container-fluid">
-			<p>Selamat datang di Dashboard!</p>
+			<div class="card">
+				<div class="card-body">
+					<p>Selamat datang di Dashboard AdminLTE via CDN!</p>
+				</div>
+			</div>
 		</div>
 	</section>
 </div>
