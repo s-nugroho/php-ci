@@ -11,6 +11,12 @@
 						<p>Dashboard</p>
 					</a>
 				</li>
+				<li class="nav-item">
+					<a href="<?= site_url('form') ?>" class="nav-link">
+						<i class="nav-icon fas fa-edit"></i>
+						<p>Form Input</p>
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</div>
